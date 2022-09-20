@@ -1,23 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-</head>
-<body>
-    
-    <div class="container">
-        <div id="container" class="container">
+  </head>
+  <body>
+    <header></header>
 
+    <main>
+      <section>
+        <div class="container my-5 mx-auto">
+          <div class="row">
+            <div class="col-12">
+              <form action="">
+                <select id="artista" class="form-select" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option  value="0dalJaAT80lKfkZsC86lnW">Power Glove</option>
+                  <option  value="05fG473iIaoy82BF1aGhL8">Slipknot</option>
+                  <option  value="4tZwfgrHOc3mvqYlEYSvVi">Daft Punk</option>
+                  <option  value="2wJmQGht7kgGiEGMdypqoz">Beloga</option>
+                  <option  value="0XFgyr4jwM0MGeZZW0VzA5">DVRST</option>
+                  <option  value="1KvNXSn0FKGELFRpfm3ONi">Gabriela Robin</option>
+                  <option  value="7K3zpFXBvPcvzhj7zlGJdO">Crystal Castles</option>
+                  <option  value="5EmEZjq8eHEC6qFnT63Lza">Tinlicker & Helsloot</option>
+                  <option  value="1JPy5PsJtkhftfdr6saN2i">Bassnectar & Jantsen</option>
+                  <option  value="7lcbOlKjk4gLsCxd481hik">Astronaut</option>
+                </select>
+
+                <button id="buscar" type="submit" class="btn btn-danger w-100 text-center mt-3">Search</button>
+              </form>
+            </div>
+          </div>
         </div>
-    </div>
+      </section>
 
+      <section>
+        <div class="container">
+          <div id="container" class="container g-3"></div>
+        </div>
+      </section>
+    </main>
 
+    <footer></footer>
 
-
-
-    <script src="./src/services/explicacion.js" ></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/services/explicacion.js" type="module"></script>
+    <!-- JavaScript Bundle with Popper -->
+  </body>
 </html>
